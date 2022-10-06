@@ -7,10 +7,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); //escanea la sailda del teclado
         Persona p = new Persona();
-    //    Perritos perro = new Perritos();
+        Perritos perro = new Perritos();
 
         System.out.println("Escribe la raza del perro: ");
-    //    perro.setRaza(sc.nextLine());
+        perro.setRaza(sc.nextLine());
 
 
 
@@ -34,7 +34,7 @@ public class Main {
         System.out.print("Buenos días: " + p.getNombre());
         System.out.print(" " + p.getApellidos() + " con dni: " + p.getDniSinLetra());
         System.out.println(" y edad: " + p.getEdad() );
-       // System.out.println(" Y tu perro es de raza: "+ perro.getRaza());
+        System.out.println(" Y tu perro es de raza: "+ perro.getRaza());
 
 
 
