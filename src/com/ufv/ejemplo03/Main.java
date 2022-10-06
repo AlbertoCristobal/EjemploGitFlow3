@@ -3,6 +3,7 @@ package com.ufv.ejemplo03;
 
 import java.util.Scanner;
 public class Main {
+    //Esto es la versión 2.0
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); //escanea la sailda del teclado
